@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <header style="background-color: lightgray;">
+        <section name="index">
+            <ul>
+                <li>
+                    <a href="index.html">About me</a>
+                </li>
+                <li>
+                    <a href="academic.html">Academic life</a>
+                </li>
+                <li>
+                    <a href="hobbies.html">Hobbies</a>
+                </li>
+            </ul>
+        </section>
+    </header>
+</head>
+<body>
+    <section name="overview">
+        <h1>Overview</h1>
+        <img src="https://avatars.githubusercontent.com/u/84162354?v=4" name="picture" width="200">
+        <p>
+            Douglas Mauricio Cabrera Pineda, born in september 9, 2003 (18 years old). He's a student of <strong>"Informatics Engineering"</strong>
+            of the <strong>Central American University, Jose Simeon Cañas</strong> since January, 2021.<br>
+        </p>
+        <h1>Family</h1>
+        <p>
+            I'm an only child, but I always wanted to have a brother or a sister to talk with but I have my two lovely parents alive and living together and it's more than enough to make me happy.
+        </p>
+    </section>
+    <footer style="background-color: lightgray" id="contacto">
+        <!-- Comments Section -->
+        <section id="comentarios">
+            <div class="form">
+                <h2>Comments</h2>
+                <form action="#./academics.html" method="post">
+                    <!-- Personal data -->
+                    <fieldset>
+                        <legend>Personal Data</legend>
+                        <label>
+                            Name:
+                            <input type="text" name="username"/>
+                        </label>
+                        <label>
+                            Email:
+                            <input type="text" name="email" id="email-address"/>
+                        </label>
+                        <br><br>
+                        <label>
+                            Age:
+                            <input type="number" name="age"/>
+                        </label>
+                    </fieldset>
+
+                    <!-- Comments and suggestions -->
+                    <fieldset>
+                        <legend>Comments and suggestions</legend>
+                        <label>
+                            Comments:
+                            <textarea name="comments"></textarea>
+                        </label>
+                        <div>
+                            <p>What do you think about my work?</p>
+                            <label>
+                                Bad
+                                <input type="radio" name="rate" value="bad">
+                            </label>
+                            <label>
+                                Good
+                                <input type="radio" name="rate" value="good">
+                            </label>
+                            <label>
+                                Excellent
+                                <input type="radio" name="rate" value="excellent">
+                            </label>
+                        <!-- Submit button -->
+                        </div>
+                        <br><br>
+                        <input type="submit"/>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <!-- Social media -->
+        <h3>Contact</h3>
+        <p>Email</p>
+        <ul>
+            <li>
+                <a href="mailto:00133121@uca.edu.sv">00133121@uca.edu.sv</a>
+            </li>
+        </ul>
+        
+        <p>Social Media</p>
+        <ul>
+            <li><a href="https://www.instagram.com/cabrera.evil/">Instagram</a></li>
+            <li><a href="https://www.facebook.com//">Facebook</a></li>
+        </ul>
+        <p>You can also visit my <a href="https://www.youtube.com/channel/UCfWWYLHKGVIfCbaO0rvkOFg">YouTube Channel!</a></p>
+    </footer>
+</body>
+</html>
